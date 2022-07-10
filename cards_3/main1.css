@@ -1,0 +1,69 @@
+.wrap{
+    background: #227bd2;
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.container_left{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.container_right{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.box_one, .box_second, .box_third {
+    background: white;
+    height: 153px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.box_one_1, .box_second_1, .box_third_1{
+    background:white   ;
+    height: 153px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.left, .left_1, .left_2, .left_1-1, .left_2-2, .left_3-3 {
+    height:153px;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right, .right_1, .right_2, .right_1-1, .right_2-2, .right_3-3{
+    height:153px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+.right>h3, .right_1>h3, .right_2>h3, .right_1-1>h3,
+.right_2-2>h3, .right_3-3>h3{
+    font-family: 'Heebo', sans-serif;
+    color: darkorange;
+    font-size: 22px;
+}
+.fa-pen-to-square, .fa-crop, .fa-id-card, .fa-code,
+.fa-wordpress-simple, .fa-buysellads{
+   font-size: 60px;
+    color: #484545;
+}

@@ -1,0 +1,81 @@
+
+.wrap{
+    height: 800px;
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+
+}
+.wrap >h2 {
+    padding-top: 40px;
+    padding-left: 250px;
+    color: #383333;
+}
+
+.container{
+    height: 610px;
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_one, .box_second,.box_third, .box_fourth{
+    height: 610px;
+    width: 220px;
+    box-sizing: border-box;
+    padding-top:30px;
+    border: 1px solid #3b3838;
+    box-shadow: 12px 12px 2px 1px rgba(12, 12, 19, 0.2);
+}
+.icon{
+    height: 150px;
+    width: 215px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-star, .fa-location-dot, .fa-fire-flame-curved,
+.fa-earth-americas {
+    font-size: 45px;
+    color: #494646;
+}
+.text{
+    height: 240px;
+    width:215px ;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text>p{
+    font-size: 22px;
+    color:#494646;
+    margin-bottom: 50px;
+}
+.text>h4 {
+    color: rgba(150, 32, 32, 0.93);
+    display: flex;
+     padding-left: 30px;
+}
+.point{
+    height: 150px;
+    width: 215px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.point>button{
+    height: 60px;
+    width: 140px;
+    background: #67d098;
+    border: 0;
+    box-shadow: 12px 12px 2px 1px rgba(55, 55, 66, 0.2);
+
+}
+
+
+
